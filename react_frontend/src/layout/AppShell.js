@@ -75,11 +75,11 @@ export function AppShell({ children }) {
             </div>
 
             <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-              <span className="badge badgeBlue" title="Environment">
-                Demo data
+              <span className="badge badgeBlue" title="Data source">
+                API-backed (fallback to demo)
               </span>
-              <span className="badge badgeAmber" title="Backend status">
-                Backend: /api-docs minimal
+              <span className="badge badgeAmber" title="Backend">
+                Backend: /api/*
               </span>
             </div>
           </div>
